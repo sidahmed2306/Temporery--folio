@@ -11,6 +11,11 @@
     font-family: athene;
     src: url(../font/Athene.otf);
 }
+html{
+    /* font-size: 62.5%; */
+    scroll-behavior: smooth;
+
+}
 body{
     display:grid ;
 }
@@ -20,12 +25,20 @@ header{
 .span1{
     letter-spacing: -6px;
 }
+.sc20{
+    position: fixed;
+    width: 100vw;
+}
 .tempo{
     display: flex;
     justify-content:space-between ;
     border-bottom: 1px solid black;
     font-family: open;
     padding: 10px 100px;
+}
+.tempo p {
+    color: #042A5A;
+    font-family: open;
 }
 .temporery{
     display: flex;
@@ -37,6 +50,7 @@ header{
     margin-right: 40px;
     color: #042A5A;
     flex-wrap: wrap;
+    padding-top: 98px;
     
 
 }
@@ -169,6 +183,7 @@ span{
 .performence p:nth-of-type(1){
     font-size: 14px;
 }
+
 .circle{
     color: #7D2222;
     margin-top: 50px;
@@ -211,7 +226,6 @@ span{
     margin-bottom: 250px
 }
 .rodrigo img{
-    z-index: ;
    width: 52.5%;
    margin-left: -16px; 
 }
